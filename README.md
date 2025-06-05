@@ -1,4 +1,4 @@
-# 📈 Bank Marketing Campaign: Logistic Regression Project
+# 📈 Bank Marketing Campaign: Logistic Regression
 
 This project leverages logistic regression to predict whether a customer will subscribe to a long-term deposit product based on historical marketing campaign data from a Portuguese bank. This predictive model allows the bank to focus marketing efforts on high-potential customers, improving efficiency and reducing costs.
 
