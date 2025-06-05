@@ -1,6 +1,38 @@
-# Data Science Project Boilerplate
+# 📈 Bank Marketing Campaign: Logistic Regression Project
 
-This boilerplate is designed to kickstart data science projects by providing a basic setup for database connections, data processing, and machine learning model development. It includes a structured folder organization for your datasets and a set of pre-defined Python packages necessary for most data science tasks.
+This project leverages logistic regression to predict whether a customer will subscribe to a long-term deposit product based on historical marketing campaign data from a Portuguese bank. This predictive model allows the bank to focus marketing efforts on high-potential customers, improving efficiency and reducing costs.
+
+## 🧠 Business Context
+
+Long-term deposits help banks secure funds for extended periods. The bank contacts customers by phone to promote these products, but many calls are unsuccessful or wasted on uninterested clients. 
+
+By analyzing past campaign data, we aim to build a **classification model** that predicts whether a customer will accept a long-term deposit offer. The outcome helps prioritize leads and optimize marketing efforts.
+
+## 📁 Dataset
+
+### 📊 Features:
+
+- `age`: Age of customer *(numeric)*
+- `job`: Job title *(categorical)*
+- `marital`: Marital status *(categorical)*
+- `education`: Education level *(categorical)*
+- `default`: Has credit in default? *(categorical)*
+- `housing`: Has housing loan? *(categorical)*
+- `loan`: Has personal loan? *(categorical)*
+- `contact`: Contact communication type *(categorical)*
+- `month`: Last contact month *(categorical)*
+- `day_of_week`: Last contact weekday *(categorical)*
+- `duration`: Last contact duration in seconds *(numeric)*
+- `campaign`: Number of current campaign contacts *(numeric)*
+- `pdays`: Days since last contact *(numeric)*
+- `previous`: Number of prior contacts *(numeric)*
+- `poutcome`: Outcome of the previous campaign *(categorical)*
+- `emp.var.rate`: Employment variation rate *(numeric)*
+- `cons.price.idx`: Consumer price index *(numeric)*
+- `cons.conf.idx`: Consumer confidence index *(numeric)*
+- `euribor3m`: EURIBOR 3-month rate *(numeric)*
+- `nr.employed`: Number of employees *(numeric)*
+- `y`: 🔴 **Target** – Will the customer take the offer? (`yes`/`no`)
 
 ## Structure
 
